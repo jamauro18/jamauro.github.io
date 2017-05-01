@@ -4,7 +4,11 @@
 @import "{{ site.theme }}";
 
 html,body
-h1,h2 {
+h1 {
 font-size: 75px;
 color: RED;
+}
+h2 {
+  font-size: 75px
+    color: Blue;
 }

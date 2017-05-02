@@ -5,9 +5,14 @@
 
 html,body
 h1 {
-font-size: 75px;
-
-color: RED;
+  font-size: 75px;
+  font-family: 'Bree Serif', serif;
+  color: WHITE;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 h2 {
   font-size: 75px;

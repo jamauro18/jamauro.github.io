@@ -6,6 +6,7 @@
 html,body
 h1 {
 font-size: 75px;
+
 color: RED;
 }
 h2 {
@@ -15,4 +16,9 @@ h2 {
 p {
   font-size: 30px;
   color: WHITE;
+}
+
+img {
+    display: block;
+    margin: auto;
 }

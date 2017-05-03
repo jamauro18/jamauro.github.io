@@ -20,22 +20,6 @@ h1 {
     1px 1px 0 #000;
 }
 
- h1:after {
-     background: none repeat scroll 0 0 #HEXCOLOR;
-     bottom: -10px;
-     content: "";
-     display: block;
-     height: 10px;
-     position: relative;
-     width: 100px;
- }
-
-
-p {
-  font-size: 30px;
-  color: WHITE;
-}
-
 img {    
     margin: 10px;
 }

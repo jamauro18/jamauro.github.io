@@ -26,10 +26,15 @@ img {
     float:left;
 }
 
-.navigation {
-  font-size:25px;
-  color:White;
+li {
+  font-weight: 100;
+  letter-spacing: 2px;
+  padding: 20px 0px;
+  margin-right: 20px;
+  margin-left:20px;
+  text-transform: uppercase;
   display: inline-block;
+  color: WHITE;
   border:5px;
   border-color:WHITE;
 }

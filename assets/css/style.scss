@@ -25,12 +25,11 @@ h1 {
     display: flex;
     justify-content: space-between; // flex-start | flex-end | center | space-around;
     align-items: flex-start; // flex-start | flex-end | center | baseline;
-      
+    max-width:33%;
 }
 #images a {
    display:inline-block;
-   max-width:30%;
-}
+   }
 
 #twitter-align
 {
@@ -42,7 +41,7 @@ h1 {
 }
 #twitter-align a {
    display:inline-block;
-    max-width:30%;
+   max-width:33%;
 }
 
 ul {

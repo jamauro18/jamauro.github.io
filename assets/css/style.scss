@@ -25,7 +25,7 @@ h1 {
 
 #images {   
     display: flex;
-    max-width:99%;
+    max-width:10vw;
     justify-content: space-between; // flex-start | flex-end | center | space-around;
     align-items: flex-start; // flex-start | flex-end | center | baseline;
 }

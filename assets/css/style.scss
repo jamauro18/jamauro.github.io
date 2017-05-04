@@ -23,7 +23,7 @@ h1 {
 
 #images {   
     display: flex;
-    max-width:100%;
+    max-width:99%;
     justify-content: space-between; // flex-start | flex-end | center | space-around;
     align-items: flex-start; // flex-start | flex-end | center | baseline;
 }

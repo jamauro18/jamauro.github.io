@@ -25,12 +25,11 @@ h1 {
     display: flex;
     justify-content: space-between; // flex-start | flex-end | center | space-around;
     align-items: stretch; // flex-start | flex-end | center | baseline;
-    max-width:auto;
-    max-height:auto;
-      
+   
 }
 #images a {
-    display: inline-block;    
+    display: inline-block;
+    width: calc((100% / 3) - 10px);
 }
 
 ul {

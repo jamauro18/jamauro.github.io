@@ -17,6 +17,12 @@ h1 {
     -1px 1px 0 #000,
     1px 1px 0 #000;
 }
+@media only screen and (max-width:480px){
+  h1{
+    width:270px;
+  }
+  
+}
 
 img {    
    border:none;

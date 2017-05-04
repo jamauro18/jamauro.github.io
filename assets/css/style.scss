@@ -32,6 +32,17 @@ h1 {
    display:inline-block;
 }
 
+#twitter-align
+{
+    display: flex;
+    justify-content: space-between; // flex-start | flex-end | center | space-around;
+    align-items: flex-start; // flex-start | flex-end | center | baseline;
+    max-width:30%;
+}
+#twitter-align a {
+   display:inline-block;
+}
+
 ul {
     display: flex;
     align-items: stretch; /* Default */

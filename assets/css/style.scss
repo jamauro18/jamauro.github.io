@@ -21,17 +21,12 @@ h1 {
     1px 1px 0 #000;
 }
 
-#images {
-    text-align: justify;
+#images {   
+    display: flex;
+    justify-content: space-between // flex-start | flex-end | center | space-around;
+    align-items: stretch // flex-start | flex-end | center | baseline;
 }
-#images > div {
-    max-width: 30%px; /* Declare your value. Can be in relative units. */
-    display: inline-block;
-    vertical-align: top;
-}
-#images:after {
-    content: "";
-    width: 100%;
+#images a {
     display: inline-block;
 }
 

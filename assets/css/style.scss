@@ -46,7 +46,7 @@ h1 {
 
 ul {
     display: flex;
-    align-items: stretch; /* Default */
+    align-items: flex-start; /* Default */
     justify-content: space-between;
     width: 100%;
     margin:0;

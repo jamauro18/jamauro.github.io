@@ -29,6 +29,16 @@ img {
    width:33%;
 }
 
+.imageContainer {
+  overflow:hidden;
+}
+
+.imageContainer img {
+  max-width:100%;
+  height:auto;
+  display:block;
+}
+
 
 li {
   min-width:50px;

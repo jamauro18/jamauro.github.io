@@ -22,9 +22,9 @@ img {
     margin: 5px;
     border:none;
 }
-.imgContainer{
-    float:left;
-}
+.images .image-container {
+  display: inline-block;
+  width:50%;
 
 li {
   font-weight: 100;

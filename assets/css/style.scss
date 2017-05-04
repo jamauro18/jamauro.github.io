@@ -24,12 +24,12 @@ h1 {
 #images {   
     display: flex;
     justify-content: space-between; // flex-start | flex-end | center | space-around;
-    align-items: stretch; // flex-start | flex-end | center | baseline;
+    align-items: flex-start; // flex-start | flex-end | center | baseline;
     max-width:30%;
-    display:inline-block;
-   
+      
 }
 #images a {
+   display:inline-block;
 }
 
 ul {

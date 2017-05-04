@@ -37,7 +37,8 @@ ul {
     align-items: stretch; /* Default */
     justify-content: space-between;
     width: 100%;
-    margin:0;
+    margin-left:5px;
+    margin-right:5px;
     padding:0;
 
 }
@@ -48,7 +49,6 @@ li {
   letter-spacing: 2px;
   text-transform: uppercase;
   display: inline-block;  
-  flex: 0 1 auto; /* Default */
   list-style-type: none;
   color: WHITE;
 

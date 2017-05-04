@@ -27,9 +27,7 @@ img {
    margin:5px;
    margin-bottom:20%;
    display: inline-block;
-   width:33%;
-   float:center;
-  
+   width:33%;  
 }
 
 .imgContainer {
@@ -40,6 +38,16 @@ img {
   max-width:100%;
   height:auto;
   display:block;
+}
+
+.left{
+  float:left;
+}
+.center{
+  float:center;
+}
+.right{
+  float:right;
 }
 
 

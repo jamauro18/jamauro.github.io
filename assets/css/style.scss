@@ -25,6 +25,16 @@ img {
 .images .image-container {
   display: inline-block;
   width:50%;
+}
+.image-container {
+  overflow:hidden;
+}
+
+.image-container img {
+  max-width:100%;
+  height:auto;
+  display:block;
+}
 
 li {
   font-weight: 100;

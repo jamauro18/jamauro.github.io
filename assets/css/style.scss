@@ -24,7 +24,10 @@ h1 {
 #images {   
     display: flex;
     justify-content: space-between; // flex-start | flex-end | center | space-around;
-    //align-items: stretch; // flex-start | flex-end | center | baseline;
+    align-items: stretch; // flex-start | flex-end | center | baseline;
+    max-width:33%;
+    max-height:auto;
+      
 }
 #images a {
     display: inline-block;    

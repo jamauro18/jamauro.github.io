@@ -33,7 +33,7 @@ header {
 #images {   
     display: flex;
     justify-content: space-between; // flex-start | flex-end | center | space-around;
-    align-items: stretch; // flex-start | flex-end | center | baseline;
+    align-items: center; // flex-start | flex-end | center | baseline;
 }
 #images img {
    display:inline-block;
@@ -52,6 +52,10 @@ header {
 #twitter-align a {
    display:inline-block;
    margin:10px;
+}
+
+.flex-container {
+  width:100%;
 }
 
 ul {

@@ -11,12 +11,9 @@ h1 {
   font-family: 'Bree Serif', serif;
   padding-bottom:auto;
   color: WHITE;
-  display: flex;
-  justify-content: space-between; // flex-start | flex-end | center | space-around;
-  align-items: flex-start; // flex-start | flex-end | center | baseline;
+  text-align:center; // flex-start | flex-end | center | baseline;
   width:100%;
-  margin:0;
-  padding:0;
+  margin:0 auto;
   letter-spacing: 3.5px;
   line-height: auto;
   text-shadow:

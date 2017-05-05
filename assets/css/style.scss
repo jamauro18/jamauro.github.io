@@ -68,7 +68,9 @@ header {
 }
 
 ul {
-
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 li {
@@ -76,5 +78,11 @@ li {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: WHITE;
-
 }
+
+li a:hover {
+    background-color: White;
+    color: Black;
+}
+
+

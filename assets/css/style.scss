@@ -34,14 +34,9 @@ header {
 #menu {
   margin-left:10px;
   height:10px;
-  width:10px;  
-}
-h1 {
-  color:WHITE;
-  height:10px;
-  float:left;
-  font-size:auto;
-  margin-left:5px;
+  width:10px;
+  position:fixed;
+  z-index:1;
 }
 
 #images {   

@@ -41,11 +41,8 @@ header {
 	flex-flow: row nowrap;
 	-webkit-justify-content: space-between;
 	justify-content:space-between;
-	width:100%
 }
 #images img {
-	display:inline-flex;
-	display: -webkit-inline-flex;
 	-webkit-flex: 1 0 30%;
 	flex: 1 0 30%;
    }
@@ -93,12 +90,3 @@ li {
   color: WHITE;
 
 }
-
-  
-
-
-
-
-
-
-

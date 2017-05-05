@@ -44,6 +44,8 @@ header {
 	width:100%
 }
 #images img {
+	display:inline-flex;
+	display: -webkit-inline-flex;
 	-webkit-flex: 1 0 30%;
 	flex: 1 0 30%;
    }

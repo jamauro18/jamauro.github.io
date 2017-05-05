@@ -112,6 +112,9 @@ h4 {
   -webkit-column-count: 3; /* Chrome, Safari, Opera */
   -moz-column-count: 3; /* Firefox */
   column-count: 3;
+  -webkit-column-gap: 33%; /* Chrome, Safari, Opera */
+  -moz-column-gap: 33% ;//Firefox */
+  column-gap: 33%
 }
 .News ul {
     list-style-type: none;

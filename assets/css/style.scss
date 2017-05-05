@@ -45,14 +45,12 @@ header {
     display: flex;
     justify-content: space-between; // flex-start | flex-end | center | space-around;
     align-items: center; // flex-start | flex-end | center | baseline;
-    width:100%;
     margin:0;
     padding:0;
     
 }
 #twitter-align a {
    display:inline-block;
-   max-width:30%;
    margin:10px;
 }
 

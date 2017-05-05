@@ -8,15 +8,19 @@ body {
 }
 
 header {
-  height:100px;
-  line-height:100px;
   font-family: 'Bree Serif', serif;
-  color: WHITE;
-  font-weight: bold;
-  text-align:center;  
-  width:100%;
-  margin:0 auto;
-  letter-spacing: 3.5px;
+  height: 150px;
+  width: 100%;
+  font-size: 100px;
+  color: #FFF;
+  text-align: center;
+  padding: 0 20px;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  /* align horizontal */
+  align-items: center;
+  /* align vertical */
   text-shadow:
     -1px -1px 0 #000,
     1px -1px 0 #000,

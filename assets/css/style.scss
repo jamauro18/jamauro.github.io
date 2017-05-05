@@ -4,9 +4,10 @@
 @import "{{ site.theme }}";
 
 html
+body {
+}
 
-
-h1 {
+header {
   font-size: 100px;
   font-family: 'Bree Serif', serif;
   padding-bottom:auto;

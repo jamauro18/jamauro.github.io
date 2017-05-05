@@ -109,6 +109,9 @@ h4 {
 }
 .News {
   margin:10px;
+  -webkit-column-count: 3; /* Chrome, Safari, Opera */
+  -moz-column-count: 3; /* Firefox */
+  column-count: 3;
 }
 .News ul {
     list-style-type: none;
@@ -127,12 +130,11 @@ h4 {
 }
 
 .league {
-  display:block;
+  
 }
 .wow {
-  display:block;
+  
 }
 .overwatch {
-  display:block;
   border-color:white;
 }

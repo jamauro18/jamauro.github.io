@@ -39,7 +39,7 @@ header {
   z-index:1;
 }
 
-#images {   
+/*#images {   
 
     display: -webkit-flex;
     display: flex;
@@ -50,6 +50,20 @@ header {
    display:inline-block;
    width:33%
    }
+*/
+#images {   
+  -webkit-column-count: 3; /* Chrome, Safari, Opera */
+  -moz-column-count: 3; /* Firefox */
+  column-count: 3;
+  -webkit-column-gap: 33.33%; /* Chrome, Safari, Opera */
+  -moz-column-gap: 33.33%;//Firefox */
+  column-gap: 33.33%;
+}
+#images img {
+
+   }
+
+
 
 #twitter-align
 {

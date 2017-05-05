@@ -39,7 +39,7 @@ header {
   z-index:2;
 }
 
-/*#images {   
+#images {   
 
     display: -webkit-flex;
     display: flex;
@@ -50,18 +50,7 @@ header {
    display:inline-block;
    width:33%
    }
-*/
-#images {   
-  -webkit-column-count: 3; /* Chrome, Safari, Opera */
-  -moz-column-count: 3; /* Firefox */
-  column-count: 3;
-  -webkit-column-gap: 0; /* Chrome, Safari, Opera */
-  -moz-column-gap:0;//Firefox */
-  column-gap: 0;
-}
-#images img {
- width:90%
-   }
+
 
 
 

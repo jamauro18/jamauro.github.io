@@ -55,12 +55,12 @@ header {
   -webkit-column-count: 3; /* Chrome, Safari, Opera */
   -moz-column-count: 3; /* Firefox */
   column-count: 3;
-  -webkit-column-gap: 33.33%; /* Chrome, Safari, Opera */
-  -moz-column-gap: 33.33%;//Firefox */
-  column-gap: 33.33%;
+  -webkit-column-gap: 33%; /* Chrome, Safari, Opera */
+  -moz-column-gap: 33%;//Firefox */
+  column-gap: 33%;
 }
 #images img {
-width:33%;
+width:100%;
    }
 
 

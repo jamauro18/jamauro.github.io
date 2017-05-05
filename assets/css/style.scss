@@ -73,27 +73,27 @@ h1 {
   width:30%;
 }
 
-ul {
+.dropdown-content ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-li {
+.dropdown-content li {
   font-weight: 200;
   letter-spacing: 2px;
   text-transform: uppercase;
   color: WHITE;
 }
 
-li a {
+.dropdown-content li a {
     display: block;
     color: White;
     padding: 5px 15px;
     text-decoration: none;
 }
 
-li a:hover {
+.dropdown-content li a:hover {
     background-color: White;
     color: Black;
 }
